@@ -8,11 +8,11 @@
 		<version>3.5.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>QueueManagement</groupId>
-	<artifactId>QueueManagement</artifactId>
+	<groupId>com.queue.management.system</groupId>
+	<artifactId>Queue-Manaagement-System</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>QueueManagement</name>
-	<description> QueueManagement project for Spring Boot</description>
+	<name>Spring-Security-Revision-1</name>
+	<description>This is a queue management system application which generates token to avoid queue</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -27,7 +27,7 @@
 		<url/>
 	</scm>
 	<properties>
-		<java.version>21</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
