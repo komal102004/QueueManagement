@@ -5,7 +5,9 @@ import QueueManagement.QueueManagement.entity.Admin;
 import QueueManagement.QueueManagement.repository.AdminRepository;
 import QueueManagement.QueueManagement.service.AdminService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+@Service
 public class AdminImpl implements AdminService {
     @Autowired
     private AdminRepository adminRepository;
